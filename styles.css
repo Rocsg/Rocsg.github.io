@@ -39,7 +39,10 @@ p { margin: 0 0 1.1rem; }
 .button:hover { background: #295347; }
 .text-link { font-size: .85rem; font-weight: 550; text-decoration: none; }
 .hero-visual { margin: 0; }
-.hero-visual svg { display: block; width: 100%; height: auto; }
+.hero-visual img, .project-visual img { display: block; width: 100%; height: auto; border-radius: 4px; }
+.hero-visual a, .project-visual a { display: block; }
+.project-visual { margin: .5rem 0 1.4rem; }
+.project-visual figcaption { font-size: .7rem; text-align: left; }
 figcaption { margin-top: .8rem; text-align: center; font-size: .66rem; color: var(--muted); }
 .research { display: grid; grid-template-columns: 1fr 1.15fr; gap: 5rem; border-block: 1px solid var(--line); }
 .research-copy { color: var(--muted); font-size: .96rem; }
@@ -65,6 +68,7 @@ figcaption { margin-top: .8rem; text-align: center; font-size: .66rem; color: va
 .featured .project-role { color: #edbe91; }
 .featured .tags li { background: #315247; color: #e1e9dc; }
 .featured .project-links { border-color: #496358; }
+.featured figcaption { color: #d0ddd1; }
 .featured a:focus-visible { outline-color: #edbe91; }
 .project-note { padding: 2.2rem; display: flex; flex-direction: column; justify-content: center; align-items: start; }
 .project-note h3 { font-size: 2.4rem; margin: 0 0 1rem; }

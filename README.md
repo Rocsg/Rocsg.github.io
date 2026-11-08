@@ -17,8 +17,10 @@ Open <http://127.0.0.1:8000>. Stop the server with Ctrl+C when finished.
 
 - `index.html`: biography, research themes, project descriptions, roles and links.
 - `styles.css`: layout, colours and responsive styles.
-- The inline SVG is an original conceptual illustration, not scientific data.
-  Replace or complement it with research visuals only when cleared for publication.
+- `assets/images/`: six user-supplied PNGs, copied unchanged at their actual
+  dimensions of 1152 × 768. Images display completely at their native 3:2 ratio,
+  link to their full-size versions, and have captions and alternative text.
+  Project images load lazily; the introductory image loads with high priority.
 - `profile/README.md`: companion text to copy into the separate `Rocsg/Rocsg`
   repository as its root `README.md`. It is not the Pages website.
 
@@ -26,6 +28,15 @@ Affiliation, current interests, project roles and the Arize research goal were
 supplied by Romain.
 Fijiyama and PhenoTrack3D descriptions were checked against their public
 repository READMEs; the PhenoTrack3D DOI comes from its README.
+
+Image captions and interpretation follow the descriptions supplied with the
+assets. Fijiyama and PhenoTrack3D are generated conceptual schematics, not
+experimental results. The four other images are conceptual montages of original
+portfolio imagery with source colours retained. Cross-scale arrows do not
+establish a biological connection between different species or specimens;
+the agroforestry crown contour is hand-drawn, not computed segmentation.
+Original source previews were enlarged during montage creation, so
+high-resolution scientific exports would improve large-display sharpness.
 
 Before publication, confirm the Scholar profile, the VITIMAGE project link,
 the English role wording, and the project descriptions. The institutional
