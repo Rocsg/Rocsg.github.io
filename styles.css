@@ -21,7 +21,7 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
 .site-header { min-height: 106px; display: flex; align-items: center; justify-content: space-between; gap: 2rem; border-bottom: 1px solid var(--line); }
 .wordmark { font-weight: 650; font-size: 1.12rem; letter-spacing: -.04em; text-decoration: none; }
 .wordmark-dot { color: var(--accent); }
-nav { display: flex; gap: 2rem; font-size: .86rem; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem 2rem; font-size: .86rem; }
 nav a { text-decoration: none; }
 .section { padding-block: 88px; }
 .hero { display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; gap: 4rem; padding-block: 72px 80px; }
@@ -89,7 +89,7 @@ figcaption { margin-top: .8rem; text-align: center; font-size: .66rem; color: va
 @media (max-width: 640px) {
   .site-header, .section, .site-footer { width: calc(100% - 36px); }
   .site-header { min-height: 100px; flex-wrap: wrap; gap: .6rem; padding-block: 1rem; }
-  nav { gap: 1.5rem; font-size: .78rem; }
+  nav { gap: .5rem 1.5rem; font-size: .78rem; }
   .section { padding-block: 52px; }
   .hero, .research, .contact { grid-template-columns: 1fr; gap: 2rem; }
   h1 { font-size: clamp(2.65rem, 10vw, 3.7rem); }
