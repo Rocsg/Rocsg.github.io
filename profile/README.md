@@ -15,7 +15,8 @@ I develop image analysis and modelling approaches for cultivated plants.
   Co-lead and research supervisor.
 - **Drone imaging in agroforestry** — aerial image analysis at field scale.
   PhD supervisor.
-- **Arize** — co-lead and designer of visualisation and analysis tools.
+- **Arize** — a rice digital twin for methane reduction.
+  Co-lead and designer of visualisation and analysis tools.
 
 [Publications](https://scholar.google.com/citations?user=Pix9A_oAAAAJ)
 · [Repositories](https://github.com/Rocsg)

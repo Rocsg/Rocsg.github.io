@@ -22,14 +22,15 @@ Open <http://127.0.0.1:8000>. Stop the server with Ctrl+C when finished.
 - `profile/README.md`: companion text to copy into the separate `Rocsg/Rocsg`
   repository as its root `README.md`. It is not the Pages website.
 
-Affiliation, current interests and project roles were supplied by Romain.
+Affiliation, current interests, project roles and the Arize research goal were
+supplied by Romain.
 Fijiyama and PhenoTrack3D descriptions were checked against their public
 repository READMEs; the PhenoTrack3D DOI comes from its README.
 
 Before publication, confirm the Scholar profile, the VITIMAGE project link,
 the English role wording, and the project descriptions. The institutional
 profile is an existing recruitment article, not a current contact directory.
-Add a preferred public contact address, the Arize project link and description,
+Add a preferred public contact address and the Arize project link,
 and selected publications / approved research images when available.
 No email address or unverified publication details have been invented.
 
